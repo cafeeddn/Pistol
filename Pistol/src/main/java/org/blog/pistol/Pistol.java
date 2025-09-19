@@ -47,7 +47,7 @@ public class Pistol extends JavaPlugin implements Listener, TabExecutor {
     // ===== 설정 =====
     private static final String PISTOL_NAME = ChatColor.GOLD + "Pistol";
     private static final Material PISTOL_MATERIAL = Material.WOODEN_SWORD; // 나무검 사용
-    private static final Integer PISTOL_CMD = null; // 리소스팩 CMD 쓰면 숫자 넣기
+    private static final Integer PISTOL_CMD = 10001; // 리소스팩 CMD 쓰면 숫자 넣기
 
     private static final double BASE_DAMAGE  = 2.1;   // 고정 피해
     private static final double CLOSE_DAMAGE = 1.05;  // 2칸 이내 근접 사격
