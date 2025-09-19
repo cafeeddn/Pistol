@@ -1,0 +1,12 @@
+name: Pistol
+version: '1.0-SNAPSHOT'
+main: org.blog.pistol.Pistol
+api-version: '1.20'
+commands:
+  pistol:
+    description: Give or manage pistol
+    usage: /pistol give
+    permission: pistol.admin
+permissions:
+  pistol.admin:
+    default: op
